@@ -30,8 +30,10 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+.section {
+  padding: 120px 0;
+}
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .logo {
@@ -64,7 +66,9 @@ img {
   gap: 40px;
   align-items: center;
 }
-
+.navigation a {
+  padding: 24px 0;
+}
 .contact {
   font-size: 16px;
   font-style: normal;
@@ -196,16 +200,14 @@ img {
   row-gap: 48px;
 }
 .portfolio-list-item {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .application {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.section {
-  padding: 120px 0;
-}
+
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
