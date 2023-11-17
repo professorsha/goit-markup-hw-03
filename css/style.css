@@ -1,3 +1,4 @@
+/*========== GLOBAL =======*/
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -25,16 +26,26 @@ ol {
 img {
   display: block;
 }
+/*============= CONTAINER =========*/
 .container {
   width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .section {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+/*======== HEADER ==========*/
 .header {
   border-bottom: 1px solid #e7e9fc;
+}
+.page-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -63,8 +74,11 @@ img {
 }
 .navigation {
   display: flex;
-  gap: 40px;
   align-items: center;
+}
+.menu-list {
+  display: flex;
+  gap: 40px;
 }
 .navigation a {
   padding: 24px 0;
@@ -72,10 +86,10 @@ img {
 .contact {
   font-size: 16px;
   font-style: normal;
-  margin-left: auto;
 }
-.contact > .navigation {
-  justify-content: left;
+.contact-navigation {
+  display: flex;
+  gap: 40px;
 }
 .contact-link {
   color: inherit;
@@ -86,7 +100,7 @@ img {
 .contact-link:focus {
   color: #404bbf;
 }
-
+/*========== SECTION HERO =========*/
 .hero {
   background-color: #2e2f42;
   color: #ffffff;
@@ -99,7 +113,8 @@ img {
   line-height: 1.07;
   letter-spacing: 0, 02em;
   max-width: 496px;
-  margin-left: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-button {
   cursor: pointer;
@@ -115,7 +130,8 @@ img {
   padding: 16px 32px;
   border-radius: 4px;
   margin-top: 48px;
-  margin-left: 466px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-button:hover,
 .hero-button:focus {
